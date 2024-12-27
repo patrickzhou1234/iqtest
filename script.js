@@ -11,5 +11,5 @@ function resize() {
 }
 
 function start() {
-  window.location.href = "https://iqtest.gq/1";
+  window.location.href = "/1";
 }

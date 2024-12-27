@@ -20,9 +20,9 @@ function resize() {
 }
 
 function dumb() {
-  window.location.href = "https://iqtest.gq/1/dumb"
+  window.location.href = "/1/dumb"
 }
 
 function notdumb() {
-  window.location.href = "https://iqtest.gq/1/notdumb"
+  window.location.href = "/1/notdumb"
 }
