@@ -1,0 +1,42 @@
+html {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  user-drag: none; 
+  -webkit-user-drag: none;
+}
+
+#welcome {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Zen Dots', cursive;
+  color: red;
+}
+
+#startbutton {
+  position: absolute;
+  font-family: 'Zen Dots', cursive;
+  border: none;
+  text-align: center;
+  color: red;
+  background-color: rgb(221, 221, 221);
+}
+
+#startbutton:hover {
+  background-color: #8cffb3;
+  cursor: pointer;
+}
+
+#background-image {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  user-drag: none; 
+  -webkit-user-drag: none;
+}

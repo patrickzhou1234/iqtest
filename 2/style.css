@@ -1,0 +1,57 @@
+html {
+  background-color: red;
+}
+
+#content {
+  position: absolute;
+  top: 0px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  user-drag: none; 
+  -webkit-user-drag: none;
+}
+
+#queue {
+  left: 50%;
+  font-size: 100px;
+  position: absolute;
+  color: orange;
+  background-color: green;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  user-drag: none; 
+  -webkit-user-drag: none;
+}
+
+.choice {
+  position: absolute;
+  border: none;
+  border-radius: 80px;
+  text-align: center;
+  background-color: greenyellow;
+  color: orangered;
+  cursor: pointer;
+}
+
+.choice:hover {
+  background-color: green;
+}
+
+#background-image {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  user-drag: none; 
+  -webkit-user-drag: none;
+  z-index: -1;
+}

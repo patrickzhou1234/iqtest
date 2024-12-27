@@ -1,0 +1,18 @@
+html {
+  overflow: hidden;
+  background-color: red;
+}
+
+#dumb {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 500px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  user-drag: none; 
+  -webkit-user-drag: none;
+}

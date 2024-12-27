@@ -1,0 +1,51 @@
+html {
+  background-color: green;
+}
+
+#background-image {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  user-drag: none; 
+  -webkit-user-drag: none;
+  z-index: -1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+
+#madeit {
+  position: absolute;
+  top: 0px;
+  font-size: 200px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  user-drag: none; 
+  -webkit-user-drag: none;
+  display: none;
+}
+
+#next {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  user-drag: none; 
+  -webkit-user-drag: none;
+  padding-top: 40px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 40px;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #04AA6D;
+  color: white;
+}
+
+#next:hover {
+  background-color: yellowgreen;
+}
